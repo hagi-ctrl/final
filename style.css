@@ -11,7 +11,7 @@
 .parent{
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 12px;
     gap: 15px   ;
     flex-wrap: wrap;
 }
@@ -19,7 +19,7 @@
    
     max-width: auto ;
     max-height: auto ;
-    width: 48%;
+    width: 49%;
     height: 700px;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,10 @@
     background-image: url(./images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-58-57.avif);
     background-size: cover;
     background-position: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 
 
 
@@ -36,12 +40,12 @@
     width: 100%;
 }
 .sparking{
-    width: 100%;
+    /* width: 100%; */
     border: 3px dotted black;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 500px;
+    /* width: 500px;
+    height: 500px; */
     gap: 30px;
     border-radius: 8px;
     padding: 25px;
@@ -55,7 +59,7 @@
     display: flex;
     justify-content: center;
     font-size: 70px;
-    ;
+    text-align: center;
     
 
 }
@@ -83,7 +87,7 @@
 
 }
 .photo{
-    width: 48%;
+    width: 49%;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -123,17 +127,20 @@
 .mid h2{
     font-size: 80px ;
     gap: 10px;
+    text-align: center;
 }
 
 .picture{
     width: 100%;
     height:50%;
+    
    
 
 }
 .picture img{
     width: 100%;
     height: 50%;
+   
 }
 .container{
     background-color: rgb(249, 249, 177);
@@ -178,11 +185,13 @@
     color: black;
 }
 .cards{
-    padding: 15px 15px 0 25px;
+    /* padding: 15px 15px 0 25px; */
     display: flex;
     flex-direction: row;
     gap: 15px;
     flex-wrap: wrap;
+    padding: 15px;
+    
     
     
 }
@@ -224,9 +233,10 @@
 .cards-reverse{
     display: flex;
     flex-direction: row-reverse;
-    padding: 15px 30px 0 10px;
+    /* padding: 15px 30px 0 10px; */
     gap: 15px;
     flex-wrap: wrap;
+    padding: 15px;
 }
 .kk{
     display: flex;
@@ -302,6 +312,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 .bright{
@@ -437,6 +448,301 @@
     height: 150px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1050px) {
+    .sparking h2 {
+        font-size: 50px;
+    }
+
+    .sparking p {
+        font-size: 17px;
+    }
+}
+@media  (max-width: 870px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    .card{
+        width: 100%;
+
+    }
+    .photo{
+        width: 100%;
+    }
+    .sparking h2{
+        font-size: 70px;
+    }
+    .sparking p{
+        font-size: 20px;
+    }
+    .container h2{
+        font-size: 55px;
+    }
+    .container p{
+        font-size: 20px;
+        display: flex;
+    }
+    .container button{
+        width: 200px;
+        padding: 10px;
+
+    }
+    .container a{
+        font-size: 15px;
+    }
+    .container{
+        gap: 8px;
+        padding: 18px;
+    }
+
+    
+}
+@media  (max-width: 550px ){
+    .sparking h2{
+        font-size: 45px;
+    }
+    .sparking p{
+        font-size: 16px;
+    }
+    .bright h2{
+        font-size: 50px;
+    }
+    .end h2{
+        font-size: 48px;
+    }
+    
+}
+@media  (max-width: 450px ){
+     .sparking h2{
+        font-size: 30px;
+    }
+    .sparking p{
+        font-size: 12px;
+        
+    }
+    .card{
+        height: 100%;
+        
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .photo{
+        height: 100%;
+    }
+    .sparking{
+    padding: 10px;
+    gap: 5px;
+    }
+    .sparking button{
+        width: 170px;
+        height: 30px;
+    }
+    .number h2{
+        font-size: 10px;
+    }
+    .kk h2{
+        font-size: 49px;
+    }
+    .number p{
+        font-size: 15px;
+
+
+    }
+    .end h2{
+        font-size: 44px;
+    }
+    .text h2{
+        font-size: 40px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    
+    
+}
+@media  (max-width: 370px ){
+     .sparking h2{
+        font-size: 25px;
+    }
+    .sparking p{
+        font-size: 10px;
+    }
+}
+@media (max-width:850px) {
+    .mid h2{
+        font-size: 70px;
+    }
+    .mid p{
+        font-size: 20px;
+    }.end h2{
+        font-size: 10px;
+    }
+}
+@media (max-width: 720px) {
+    .mid h2{
+        font-size: 60px;
+    }
+    .mid p{
+        font-size: 16px;
+    }
+    .holder h2{
+        font-size: 60px;
+    }
+    .end h2{
+        font-size: 60px;
+    }
+    .end p{
+        font-size: 18px;
+    }
+
+}
+@media (max-width: 620px) {
+    .mid h2{
+        font-size: 55px;
+    }
+    .mid p{
+        font-size: 14px;
+    }
+    .container h2{
+        font-size: 48px;
+    }
+    .container p{
+        font-size: 15px;
+        text-align: start;
+    }
+    .container button{
+        align-self: self-start;
+        margin-top: 20px;
+    }
+    .holder{
+        display: flex;
+        flex-direction: column;
+    }
+    .end h2{
+        font-size: 54px;
+    }
+    .end p{
+        font-size: 15px;
+    }
+    .buttons{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px   ;
+    }
+    
+}
+@media (max-width: 560px) {
+    .mid h2{
+        font-size: 45px;
+    }
+    .mid p{
+        font-size: 19px;
+    }
+    .mid{
+        width: 100%;
+        height: 480px;
+        
+    }
+    .gap{
+        height: 100px;
+    }
+    .picture{
+        height: 100%;
+        width: 100%;
+    }
+    .container h2{
+        font-size: 43px;
+    }
+    .container p{
+        font-size: 15px;
+        text-align: start;
+    }
+      .sparking button{
+        width: 140px;
+        height: 30px;
+    }
+    
+}
+@media (max-width: 775px) {
+    .cards,.cards-reverse{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        
+    }
+    .pic{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+}
+@media (max-width:950px) {
+    .number h2{
+        font-size: 70px;
+    }
+    .number p{
+        font-size: 23px;
+    }
+    .kk{
+        font-size: 47px;
+        text-align: center;
+    }
+}
+@media (max-width: 585px) {
+    .number1{
+        border-left: none;
+        border-right: none;
+        border-top: 3px dotted black;
+        border-bottom: 3px dotted black;
+        padding: 0px 0px;
+    }
+}
+@media (max-width:980px) {
+    .bright h2{
+        text-align: center;
+        font-size: 70px;
+    }
+}
+@media (max-width:470px ) {
+    .bright h2{
+        font-size: 49px;
+    }
+    .bright p{
+        font-size: 18px;
+    }
+    .bright button{
+        padding: 10px 60px;
+        
+    }
+}
 
 
 
