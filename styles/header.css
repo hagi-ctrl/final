@@ -17,7 +17,7 @@ body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background
     width: 300px;
 }
 .padding{
-    padding: 15px;
+    padding: 10px;
 }
 
 .logo { font-size: 1.3rem; font-weight: 800; color: #002057; text-decoration: none; }
@@ -26,7 +26,7 @@ body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background
 .links { display: flex; align-items: center; gap: 28px; }
 .links a { color: #3b4160; font-weight: 600; text-decoration: none; }
 .links a:hover, .links a.active { color: #2506ad; }
-.links .btn { padding: 10px 20px; border-radius: 999px; background: #d0e0d5; color: black; border: 1px solid black; }
+.links .btn { padding: 8px 22px; border-radius: 999px; background: #d0e0d5; color: black; border: 1px solid black; }
 .links .btn:hover { background: #2506ad; color: #fff; }
 
 /* The checkbox is the state; the label is the visible button */
@@ -37,6 +37,11 @@ body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background
 .demo { min-height: 90vh; display: grid; place-content: center; text-align: center; }
 .demo h1 { margin: 0; color: #002057; font-size: clamp(1.8rem, 5vw, 3rem); }
 .demo p { color: #5b6178; }
+iframe {
+    width: 100%;
+    border: none;
+    display: block;
+}
 
 @media (max-width: 720px) {
   .burger { display: block; }
@@ -49,8 +54,8 @@ body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background
     align-items: stretch;
     gap: 0;
     padding: 8px 6vw 20px;
-    background: #73bf00;
-    border-bottom: 1px solid #00f900;
+    background: #d0e0d5;
+    border-bottom: 1px solid #d0e0d5;
     display: none;
   }
   .links a { padding: 14px 0; }
