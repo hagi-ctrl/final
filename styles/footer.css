@@ -108,4 +108,22 @@ iframe {
         width: 100px;
     }
 }
+@media (max-width: 450px) {
+    footer{
+        flex-direction: column;
+        height: fit-content;
+        display: flex;
+        gap: 15px;
+    }
+    .box1{
+        align-items:start;
+        justify-content: center;
+    }
+    .box1 p{
+        text-align: start;
+    }
+    .box img{
+        width: 250px;
+    }
+}
 
