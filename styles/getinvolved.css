@@ -1,3 +1,26 @@
+.starter{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px   ;
+    
+}
+.starter h2{
+    font-size: 70px;
+    line-height: 100%;
+}
+.starter p{
+    font-size: 20px;
+    max-width: 650px;
+    
+}
+
+
+
 .parent{
     display: flex;
     flex-direction: row;
@@ -78,3 +101,207 @@
     object-fit: cover;
     
 }
+.pic{
+    width: 100%;
+    
+}
+.pic img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.mid{
+    height: 550px;
+    background-color: rgb(1, 7, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+.mid p{
+    font-size: 20px ;
+    text-align: center;
+    color: white;
+    line-height: 100%;
+    max-width: 780px;
+    
+    
+
+    
+
+} 
+
+.mid h2{
+    font-size: 75px ;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    max-width: 750px;
+    line-height: 100%;
+}
+.idk{
+    width: 49%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 700px;
+    border-radius: 15px;
+
+}
+.idk img{
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.parent1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px;
+    gap: 15px   ;
+    flex-wrap: wrap;
+}
+.card2{
+   
+    max-width: auto ;
+    max-height: auto ;
+    width: 49%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-53-14.avif);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+
+
+}
+
+
+.forms{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+     width: 49%;
+     padding: 20px;
+}
+.left-text h2{
+    font-size: 70px;
+    
+}
+.left-text p{
+    font-size: 18px;
+}
+
+
+
+.forms1{
+    width: 49%;
+    height: fit-content;
+    background-color: #d1e2d7;
+    padding: 29px;
+    border-radius: 10px;
+    
+}
+  
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    border: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input input{
+    background-color: #a8c0b4;
+    border: none;
+    height: 35px;
+    width: 315px;
+    border-radius: 10px;
+    outline: none
+}
+.input p{
+    font-size: 17px;
+}
+label{
+    font-size: 17px ;
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input1 input{
+    background-color: #a8c0b4;
+    border: none;
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none
+}
+.input1 p{
+    font-size: 17px;
+}
+input:hover{
+    background-color: #e2f8eb;
+}
+.input2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input2 textarea{
+    background-color: #a8c0b4;
+    border: none;
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none
+}
+.input2 p{
+    font-size: 17px;
+}
+input:hover{
+    background-color: #e2f8eb;
+}
+button{
+    background-color:#0a142f;
+    color: white;
+    width: 55%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    align-self: flex-end;
+}
+
