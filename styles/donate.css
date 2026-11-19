@@ -1,0 +1,124 @@
+.parent{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.photo {
+    width: 49%;
+    height: auto;
+}
+.photo img{
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+.donate{
+    width: 49%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+.frequency input{
+    display: none;
+    
+}.frequency label{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+    border: 1px solid #588b76;
+    padding: 5px 82px; 
+    border-radius: 15px;
+}
+.frequency input[type="radio"]:checked + label {
+    background: #e6ece6;
+    
+    border-color: #588b76;
+}
+.frequency{
+    justify-content: space-around;
+    display: flex;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px   ;
+    padding-top: 30px;
+
+}
+.text h3{
+    font-size: 35px;
+}
+.text p{
+    font-size: 16px;
+}
+.holder{
+    padding: 20px;
+}
+.holder p{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+ .amount-options input {
+            display: none;
+        }
+
+        .amount-options label {
+            cursor: pointer;
+            transition: all 0.3s ease;
+            user-select: none;
+            border: 1px solid #588b76;
+            padding: 5px 65px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .amount-options input[type="radio"]:checked + label {
+            background: #e6ece6;
+            border-color: #588b76;
+        }
+
+        .amount-options {
+            justify-content: space-between;
+            display: flex;
+            padding: 5px;
+          
+            width: 100%;
+        }
+
+        .holder .amount {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+.holder .Amount {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px; 
+}
+button{
+    padding: 10px 300px;
+    border: none;
+    border-radius: 25px;
+    
+    background-color: #0a142f;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.button1{
+    width: 100%;
+    height: fit-content;
+    padding-left: 25px;
+    
+}
+
+
+
+       

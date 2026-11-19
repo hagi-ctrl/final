@@ -304,4 +304,7 @@ button{
     border: none;
     align-self: flex-end;
 }
+textarea:hover{
+    background-color: #e2f8eb;
+}
 
