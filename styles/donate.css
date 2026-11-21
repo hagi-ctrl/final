@@ -1,124 +1,261 @@
-.parent{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 15px;
-}
-.photo {
-    width: 49%;
-    height: auto;
-}
-.photo img{
-    width: 100%; 
-    object-fit: cover;
-    border-radius: 8px;
-}
-.donate{
-    width: 49%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-
-}
-.frequency input{
-    display: none;
-    
-}.frequency label{
-    cursor: pointer;
-    transition: all 0.3s ease;
-    user-select: none;
-    border: 1px solid #588b76;
-    padding: 5px 82px; 
-    border-radius: 15px;
-}
-.frequency input[type="radio"]:checked + label {
-    background: #e6ece6;
-    
-    border-color: #588b76;
-}
-.frequency{
-    justify-content: space-around;
-    display: flex;
-    
-}
-.text{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 15px   ;
-    padding-top: 30px;
-
-}
-.text h3{
-    font-size: 35px;
-}
-.text p{
-    font-size: 16px;
-}
-.holder{
-    padding: 20px;
-}
-.holder p{
-    display: flex;
-    padding-bottom: 5px;
-}
-
- .amount-options input {
-            display: none;
-        }
-
-        .amount-options label {
-            cursor: pointer;
-            transition: all 0.3s ease;
-            user-select: none;
-            border: 1px solid #588b76;
-            padding: 5px 65px;
-            border-radius: 15px;
-            text-align: center;
-        }
-
-        .amount-options input[type="radio"]:checked + label {
-            background: #e6ece6;
-            border-color: #588b76;
-        }
-
-        .amount-options {
-            justify-content: space-between;
-            display: flex;
-            padding: 5px;
-          
-            width: 100%;
-        }
-
-        .holder .amount {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-        }
-.holder .Amount {
-    display: flex;
-    gap: 15px;
-    margin-top: 10px; 
-}
-button{
-    padding: 10px 300px;
-    border: none;
-    border-radius: 25px;
-    
-    background-color: #0a142f;
-    color: white;
-    font-size: 17px;
-    cursor: pointer;
-}
-.button1{
-    width: 100%;
-    height: fit-content;
-    padding-left: 25px;
-    
-}
 
 
 
        
+
+
+
+.parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 20px;
+}
+
+.photo {
+    flex: 1 1 45%;
+    min-width: 300px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.donate {
+    flex: 1 1 45%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.text h3 {
+    font-size: 35px;
+}
+
+.text p {
+    font-size: 16px;
+}
+
+.holder {
+    padding: 20px;
+}
+
+.holder p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.frequency {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.frequency input {
+    display: none;
+}
+
+.frequency label {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+    border: 1px solid #588b76;
+    padding: 8px 20px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1 1 auto;
+    min-width: 90px;
+    white-space: nowrap;
+}
+
+.frequency input[type="radio"]:checked + label {
+    background: #e6ece6;
+    border-color: #588b76;
+}
+
+
+.amount-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.amount-options input {
+    display: none;
+}
+
+.amount-options label {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+    border: 1px solid #588b76;
+    padding: 8px 20px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1 1 auto;
+    min-width: 70px;
+    white-space: nowrap;
+}
+
+.amount-options input[type="radio"]:checked + label {
+    background: #e6ece6;
+    border-color: #588b76;
+}
+
+.holder .Amount {
+    margin-top: 20px;
+}
+
+
+.button1 {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0a142f;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a2a4f;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .photo {
+        flex: 1 1 100%;
+        min-width: 100%;
+    }
+
+    .photo img {
+        max-height: 300px;
+    }
+
+    .donate {
+        flex: 1 1 100%;
+        min-width: 100%;
+    }
+
+    .frequency label {
+        min-width: 100px;
+    }
+
+    .amount-options label {
+        min-width: 80px;
+    }
+
+    .text h3 {
+        font-size: 28px;
+    }
+
+    .text p {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .parent {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .text {
+        padding: 15px;
+    }
+
+    .holder {
+        padding: 15px;
+    }
+
+    .frequency {
+        gap: 8px;
+    }
+
+    .frequency label {
+        min-width: 80px;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .amount-options {
+        gap: 8px;
+    }
+
+    .amount-options label {
+        min-width: 65px;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .button1 {
+        padding: 0 15px;
+    }
+
+    .text h3 {
+        font-size: 24px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .frequency {
+        gap: 5px;
+    }
+
+    .frequency label {
+        min-width: 70px;
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .amount-options {
+        gap: 5px;
+    }
+
+    .amount-options label {
+        min-width: 55px;
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+}
+
+
+

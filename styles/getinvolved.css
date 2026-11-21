@@ -1,4 +1,5 @@
-.starter{
+
+ .starter {
     width: 100%;
     height: 500px;
     display: flex;
@@ -6,86 +7,82 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 30px   ;
-    
+    gap: 30px;
+    padding: 20px;
 }
-.starter h2{
+
+.starter h2 {
     font-size: 70px;
     line-height: 100%;
+    word-wrap: break-word;
 }
-.starter p{
+
+.starter p {
     font-size: 20px;
     max-width: 650px;
-    
+    word-wrap: break-word;
 }
 
-
-
-.parent{
+.parent,
+.parent1 {
     display: flex;
     flex-direction: row;
     padding: 12px;
-    gap: 15px   ;
+    gap: 15px;
     flex-wrap: wrap;
 }
-.card{
-   
-    max-width: auto ;
-    max-height: auto ;
+
+.card,
+.card2 {
+    max-width: 100%;
     width: 49%;
     height: 700px;
     justify-content: center;
     align-items: center;
     display: flex;
     border-radius: 15px;
-    background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-55-54.avif);
     background-size: cover;
     background-position: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
-
-
-
+    padding: 5% 3%;
 }
-.card img{
+
+.card {
+    background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-55-54.avif);
+}
+
+.card2 {
+    background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-53-14.avif);
+}
+
+.sparking {
     width: 100%;
-}
-.sparking{
-    width: 470px;
+    max-width: 470px;
     border: 3px dotted black;
     display: flex;
     flex-direction: column;
-    height: 460px;
-   
+    height: auto;
+    min-height: 460px;
     gap: 30px;
     border-radius: 8px;
     padding: 25px;
     background-color: white;
-    
-
-    
-    
 }
-.sparking h2{
-    display: flex;
-    justify-content: center;
+
+.sparking h2 {
     font-size: 70px;
     text-align: center;
     line-height: 100%;
-    
-
+    word-wrap: break-word;
 }
-.sparking p{
-    display: flex;
-    justify-content: center;
+
+.sparking p {
     font-size: 20px;
     text-align: center;
-    
+    word-wrap: break-word;
 }
 
-.photo{
+.photo,
+.idk {
     width: 49%;
     justify-content: center;
     display: flex;
@@ -93,24 +90,26 @@
     overflow: hidden;
     height: 700px;
     border-radius: 15px;
-
 }
-.photo img{
-      width: 100%;
+
+.photo img,
+.idk img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
-    
 }
-.pic{
+
+.pic {
     width: 100%;
-    
 }
-.pic img{
+
+.pic img {
     width: 100%;
     height: 450px;
     object-fit: cover;
 }
-.mid{
+
+.mid {
     height: 550px;
     background-color: rgb(1, 7, 53);
     display: flex;
@@ -118,185 +117,119 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
-    
-
+    padding: 20px;
 }
-.mid p{
-    font-size: 20px ;
+
+.mid p {
+    font-size: 20px;
     text-align: center;
     color: white;
     line-height: 100%;
     max-width: 780px;
-    
-    
+    word-wrap: break-word;
+}
 
-    
-
-} 
-
-.mid h2{
-    font-size: 75px ;
-    gap: 10px;
+.mid h2 {
+    font-size: 75px;
     text-align: center;
     color: white;
     max-width: 750px;
     line-height: 100%;
-}
-.idk{
-    width: 49%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    height: 700px;
-    border-radius: 15px;
-
-}
-.idk img{
-      width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-}
-.parent1{
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 12px;
-    gap: 15px   ;
-    flex-wrap: wrap;
-}
-.card2{
-   
-    max-width: auto ;
-    max-height: auto ;
-    width: 49%;
-    height: 700px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border-radius: 15px;
-    background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-53-14.avif);
-    background-size: cover;
-    background-position: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
-
-
-
+    word-wrap: break-word;
 }
 
-
-.forms{
+.forms {
     display: flex;
     flex-direction: row;
-    
     justify-content: space-between;
     padding: 15px;
-    
+    gap: 20px;
 }
-
 
 .left-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
-    
-     width: 49%;
-     padding: 20px;
+    width: 49%;
+    padding: 20px;
 }
-.left-text h2{
+
+.left-text h2 {
     font-size: 70px;
-    
+    word-wrap: break-word;
 }
-.left-text p{
+
+.left-text p {
     font-size: 18px;
+    word-wrap: break-word;
 }
 
-
-
-.forms1{
+.forms1 {
     width: 49%;
     height: fit-content;
     background-color: #d1e2d7;
     padding: 29px;
     border-radius: 10px;
-    
 }
-  
-.name{
+
+.name {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    gap: 15px;
 }
-form{
+
+form {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 34px;
-    border: 10px;
 }
-.input{
+
+.input,
+.input1,
+.input2 {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
-.input input{
-    background-color: #a8c0b4;
-    border: none;
-    height: 35px;
-    width: 315px;
-    border-radius: 10px;
-    outline: none
+
+.input {
+    flex: 1;
 }
-.input p{
-    font-size: 17px;
-}
-label{
-    font-size: 17px ;
-}
-.input1{
-    display: flex;
-    flex-direction: column;
-    
-}
-.input1 input{
+
+.input input,
+.input1 input {
     background-color: #a8c0b4;
     border: none;
     height: 35px;
     width: 100%;
     border-radius: 10px;
-    outline: none
+    outline: none;
 }
-.input1 p{
-    font-size: 17px;
-}
-input:hover{
-    background-color: #e2f8eb;
-}
-.input2{
-    display: flex;
-    flex-direction: column;
-    
-}
-.input2 textarea{
+
+.input2 textarea {
     background-color: #a8c0b4;
     border: none;
     height: 90px;
     width: 100%;
     border-radius: 10px;
-    outline: none
+    outline: none;
 }
-.input2 p{
+
+.input p,
+.input1 p,
+.input2 p {
     font-size: 17px;
 }
-input:hover{
+
+input:hover,
+textarea:hover {
     background-color: #e2f8eb;
 }
-button{
-    background-color:#0a142f;
+
+button {
+    background-color: #0a142f;
     color: white;
     width: 55%;
     height: 40px;
@@ -304,7 +237,156 @@ button{
     border: none;
     align-self: flex-end;
 }
-textarea:hover{
-    background-color: #e2f8eb;
+
+@media (max-width: 1100px) {
+    .sparking h2 {
+        font-size: 55px;
+    }
+
+    .mid h2 {
+        font-size: 60px;
+    }
+
+    .left-text h2 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 900px) {
+    .starter h2 {
+        font-size: 55px;
+    }
+
+    .card,
+    .card2,
+    .photo,
+    .idk {
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+    }
+
+    .sparking {
+        max-width: 100%;
+        min-height: 400px;
+    }
+
+    .sparking h2 {
+        font-size: 50px;
+    }
+
+    .mid h2 {
+        font-size: 50px;
+    }
+
+    .forms {
+        flex-direction: column;
+    }
+
+    .left-text,
+    .forms1 {
+        width: 100%;
+    }
+
+    .left-text h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .starter {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .starter h2 {
+        font-size: 40px;
+    }
+
+    .starter p {
+        font-size: 16px;
+    }
+
+    .sparking {
+        padding: 20px;
+        min-height: 350px;
+    }
+
+    .sparking h2 {
+        font-size: 38px;
+    }
+
+    .sparking p {
+        font-size: 16px;
+    }
+
+    .pic img {
+        height: 300px;
+    }
+
+    .mid {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .mid h2 {
+        font-size: 38px;
+    }
+
+    .mid p {
+        font-size: 16px;
+    }
+
+    .name {
+        flex-direction: column;
+    }
+
+    .left-text h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .starter h2 {
+        font-size: 32px;
+    }
+
+    .sparking h2 {
+        font-size: 30px;
+    }
+
+    .mid h2 {
+        font-size: 30px;
+    }
+
+    .left-text h2 {
+        font-size: 32px;
+    }
+
+    .forms1 {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 345px) {
+    .starter h2 {
+        font-size: 26px;
+    }
+
+    .sparking h2 {
+        font-size: 24px;
+    }
+
+    .mid h2 {
+        font-size: 26px;
+    }
+
+    .left-text h2 {
+        font-size: 28px;
+    }
 }
 
