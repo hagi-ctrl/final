@@ -1,261 +1,280 @@
-
-
-
-       
-
-
-
 .parent {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
-    gap: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  gap: 20px;
 }
 
 .photo {
-    flex: 1 1 45%;
-    min-width: 300px;
+  flex: 1 1 45%;
+  min-width: 300px;
 }
 
 .photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .donate {
-    flex: 1 1 45%;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
+  flex: 1 1 45%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px ;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  color: black;
 }
 
 .text h3 {
-    font-size: 35px;
+  font-size: 35px;
+  color: black;
 }
 
 .text p {
-    font-size: 16px;
+  font-size: 16px;
+  color: black;
 }
 
 .holder {
-    padding: 20px;
+  padding: 20px;
 }
 
 .holder p {
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
 }
 
-
 .frequency {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+  color: black;
 }
 
 .frequency input {
-    display: none;
+  display: none;
 }
 
 .frequency label {
-    cursor: pointer;
-    transition: all 0.3s ease;
-    user-select: none;
-    border: 1px solid #588b76;
-    padding: 8px 20px;
-    border-radius: 15px;
-    text-align: center;
-    flex: 1 1 auto;
-    min-width: 90px;
-    white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  border: 1px solid #588b76;
+  padding: 8px 20px;
+  border-radius: 15px;
+  text-align: center;
+  flex: 1 1 auto;
+  min-width: 90px;
+  white-space: nowrap;
 }
 
 .frequency input[type="radio"]:checked + label {
-    background: #e6ece6;
-    border-color: #588b76;
+  background: #e6ece6;
+  border-color: #588b76;
+ 
 }
 
-
 .amount-options {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: black;
 }
 
 .amount-options input {
-    display: none;
+  display: none;
 }
 
 .amount-options label {
-    cursor: pointer;
-    transition: all 0.3s ease;
-    user-select: none;
-    border: 1px solid #588b76;
-    padding: 8px 20px;
-    border-radius: 15px;
-    text-align: center;
-    flex: 1 1 auto;
-    min-width: 70px;
-    white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  border: 1px solid #588b76;
+  padding: 8px 20px;
+  border-radius: 15px;
+  text-align: center;
+  flex: 1 1 auto;
+  min-width: 70px;
+  white-space: nowrap;
 }
 
 .amount-options input[type="radio"]:checked + label {
-    background: #e6ece6;
-    border-color: #588b76;
+  background: #e6ece6;
+  border-color: #588b76;
 }
 
 .holder .Amount {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-
 .button1 {
-    width: 100%;
-    padding: 0 20px;
-    margin-top: 20px;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 20px;
 }
 
 button {
-    width: 100%;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 25px;
-    background-color: #0a142f;
-    color: white;
-    font-size: 17px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #0a142f;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #1a2a4f;
+  background-color: #1a2a4f;
 }
-
-
+.unable{
+  width: 95%;
+  height: 48px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: #f0efec;
+  gap: 10px ;
+  align-self: center;
+ 
+}
+.unable p{
+  color: black;
+}
+.socials{
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+}
+.socials a{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 30px ;
+}
+.socials i{
+  font-size: 18px;
+}
 
 
 @media (max-width: 768px) {
-    .parent {
-        flex-direction: column;
-    }
+  .parent {
+    flex-direction: column;
+  }
 
-    .photo {
-        flex: 1 1 100%;
-        min-width: 100%;
-    }
+  .photo {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
 
-    .photo img {
-        max-height: 300px;
-    }
+  .photo img {
+    max-height: 300px;
+  }
 
-    .donate {
-        flex: 1 1 100%;
-        min-width: 100%;
-    }
+  .donate {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
 
-    .frequency label {
-        min-width: 100px;
-    }
+  .frequency label {
+    min-width: 100px;
+  }
 
-    .amount-options label {
-        min-width: 80px;
-    }
+  .amount-options label {
+    min-width: 80px;
+  }
 
-    .text h3 {
-        font-size: 28px;
-    }
+  .text h3 {
+    font-size: 28px;
+  }
 
-    .text p {
-        font-size: 15px;
-    }
+  .text p {
+    font-size: 15px;
+  }
 }
-
 
 @media (max-width: 480px) {
-    .parent {
-        padding: 10px;
-        gap: 15px;
-    }
+  .parent {
+    padding: 10px;
+    gap: 15px;
+  }
 
-    .text {
-        padding: 15px;
-    }
+  .text {
+    padding: 15px;
+  }
 
-    .holder {
-        padding: 15px;
-    }
+  .holder {
+    padding: 15px;
+  }
 
-    .frequency {
-        gap: 8px;
-    }
+  .frequency {
+    gap: 8px;
+  }
 
-    .frequency label {
-        min-width: 80px;
-        font-size: 14px;
-        padding: 8px 15px;
-    }
+  .frequency label {
+    min-width: 80px;
+    font-size: 14px;
+    padding: 8px 15px;
+  }
 
-    .amount-options {
-        gap: 8px;
-    }
+  .amount-options {
+    gap: 8px;
+  }
 
-    .amount-options label {
-        min-width: 65px;
-        font-size: 14px;
-        padding: 8px 15px;
-    }
+  .amount-options label {
+    min-width: 65px;
+    font-size: 14px;
+    padding: 8px 15px;
+  }
 
-    .button1 {
-        padding: 0 15px;
-    }
+  .button1 {
+    padding: 0 15px;
+  }
 
-    .text h3 {
-        font-size: 24px;
-    }
+  .text h3 {
+    font-size: 24px;
+  }
 
-    .text p {
-        font-size: 14px;
-    }
+  .text p {
+    font-size: 14px;
+  }
 }
-
 
 @media (max-width: 360px) {
-    .frequency {
-        gap: 5px;
-    }
+  .frequency {
+    gap: 5px;
+  }
 
-    .frequency label {
-        min-width: 70px;
-        font-size: 13px;
-        padding: 8px 10px;
-    }
+  .frequency label {
+    min-width: 70px;
+    font-size: 13px;
+    padding: 8px 10px;
+  }
 
-    .amount-options {
-        gap: 5px;
-    }
+  .amount-options {
+    gap: 5px;
+  }
 
-    .amount-options label {
-        min-width: 55px;
-        font-size: 13px;
-        padding: 8px 10px;
-    }
+  .amount-options label {
+    min-width: 55px;
+    font-size: 13px;
+    padding: 8px 10px;
+  }
 
-    button {
-        font-size: 15px;
-        padding: 10px 15px;
-    }
+  button {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
 }
-
-
-

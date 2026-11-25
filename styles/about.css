@@ -1,0 +1,198 @@
+.text{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px   ;
+}
+.text h1{
+    font-size: 80px;
+    max-width: 1000px;
+    text-align: center;
+    line-height: 100%;
+}
+.text p{
+    font-size: 22px;
+    max-width: 700px;
+    text-align: center;
+    line-height: 100%;
+}
+.bigimg{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.bigimg img{
+    width: 100%;
+    
+    object-fit: cover;
+}
+.parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 15px   ;
+    justify-content: space-evenly;
+
+}
+.photo{
+    width: 49%;
+    height: 700px;
+    
+}
+.photo img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 8px 10px;
+}
+.text1{
+    width: 49%;
+    height: 700px;
+    padding: 50px;
+    border-radius: 8px 10px;
+    background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-55-02_edited.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 15px   ;
+}
+.text1 h2{
+    font-size: 65px;
+    line-height: 100%;
+    max-width: 600px;
+}
+.text1 p{
+    max-width: 400px;
+    font-size: 20px;
+}
+.hero{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero h1{
+    font-size: 70px;
+    line-height: 100%;
+    max-width: 700px;
+    text-align: center;
+    
+}
+.holder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+.holder1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px dotted black;
+    padding: 15px;
+
+}
+.picture{
+    width: 20%;
+}
+.picture img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.name  {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.text3{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
+.text3 p{
+    font-size: 18px;
+    
+}
+.text3 h3{
+    font-size: 20px;
+}
+.name p{
+    font-size: 35px;
+    line-height: 100%;
+    padding-left: 10px;
+}
+.color  {
+    width: 30px;
+    height: 30px;
+    background-color: #a5bbaf;
+}
+.color1{
+    
+    width: 30px;
+    height: 30px;
+    background-color: #2c6d54;
+
+}
+.color2{
+    background-color:#fefa8f ;
+    width: 30px;
+    height: 30px;
+}
+.holder2{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px dotted black;
+    padding: 15px;
+    border-bottom: 2px dotted black;
+
+}
+.gapper{
+    width: 100%;
+    height: 150px;
+}
+.background{
+    background-color: #0a142f;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+
+}
+.approach{
+    background-color: #dfe7da;
+    padding: 40px 50px;
+    width: 100%;
+    height: 320px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px   ;
+}
+.approach h2{
+    font-size: 60px;
+}
+.approach p{
+    font-size: 20px;
+    line-height: 100%;
+    max-width: 850px;
+}

@@ -1,392 +1,390 @@
-
- .starter {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
-    padding: 20px;
+.starter {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  padding: 20px;
 }
 
 .starter h2 {
-    font-size: 70px;
-    line-height: 100%;
-    word-wrap: break-word;
+  font-size: 70px;
+  line-height: 100%;
+  word-wrap: break-word;
 }
 
 .starter p {
-    font-size: 20px;
-    max-width: 650px;
-    word-wrap: break-word;
+  font-size: 20px;
+  max-width: 650px;
+  word-wrap: break-word;
 }
 
 .parent,
 .parent1 {
-    display: flex;
-    flex-direction: row;
-    padding: 12px;
-    gap: 15px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 .card,
 .card2 {
-    max-width: 100%;
-    width: 49%;
-    height: 700px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
-    padding: 5% 3%;
+  max-width: 100%;
+  width: 49%;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  padding: 5% 3%;
 }
 
 .card {
-    background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-55-54.avif);
+  background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-55-54.avif);
 }
 
 .card2 {
-    background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-53-14.avif);
+  background-image: url(../images/untitled_Gemini\ 3\ \(Nano\ Banana\ Pro\)_2026-03-19_21-53-14.avif);
 }
 
 .sparking {
-    width: 100%;
-    max-width: 470px;
-    border: 3px dotted black;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    min-height: 460px;
-    gap: 30px;
-    border-radius: 8px;
-    padding: 25px;
-    background-color: white;
+  width: 100%;
+  max-width: 470px;
+  border: 3px dotted black;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 460px;
+  gap: 30px;
+  border-radius: 8px;
+  padding: 25px;
+  background-color: white;
 }
 
 .sparking h2 {
-    font-size: 70px;
-    text-align: center;
-    line-height: 100%;
-    word-wrap: break-word;
+  font-size: 70px;
+  text-align: center;
+  line-height: 100%;
+  word-wrap: break-word;
 }
 
 .sparking p {
-    font-size: 20px;
-    text-align: center;
-    word-wrap: break-word;
+  font-size: 20px;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .photo,
 .idk {
-    width: 49%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    height: 700px;
-    border-radius: 15px;
+  width: 49%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 700px;
+  border-radius: 15px;
 }
 
 .photo img,
 .idk img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .pic {
-    width: 100%;
+  width: 100%;
 }
 
 .pic img {
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
 }
 
 .mid {
-    height: 550px;
-    background-color: rgb(1, 7, 53);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    padding: 20px;
+  height: 550px;
+  background-color: rgb(1, 7, 53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
 }
 
 .mid p {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    line-height: 100%;
-    max-width: 780px;
-    word-wrap: break-word;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  line-height: 100%;
+  max-width: 780px;
+  word-wrap: break-word;
 }
 
 .mid h2 {
-    font-size: 75px;
-    text-align: center;
-    color: white;
-    max-width: 750px;
-    line-height: 100%;
-    word-wrap: break-word;
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  max-width: 750px;
+  line-height: 100%;
+  word-wrap: break-word;
 }
 
 .forms {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 15px;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 20px;
 }
 
 .left-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 49%;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 49%;
+  padding: 20px;
 }
 
 .left-text h2 {
-    font-size: 70px;
-    word-wrap: break-word;
+  font-size: 70px;
+  word-wrap: break-word;
 }
 
 .left-text p {
-    font-size: 18px;
-    word-wrap: break-word;
+  font-size: 18px;
+  word-wrap: break-word;
 }
 
 .forms1 {
-    width: 49%;
-    height: fit-content;
-    background-color: #d1e2d7;
-    padding: 29px;
-    border-radius: 10px;
+  width: 49%;
+  height: fit-content;
+  background-color: #d1e2d7;
+  padding: 29px;
+  border-radius: 10px;
 }
 
 .name {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 34px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
 }
 
 .input,
 .input1,
 .input2 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .input {
-    flex: 1;
+  flex: 1;
 }
 
 .input input,
 .input1 input {
-    background-color: #a8c0b4;
-    border: none;
-    height: 35px;
-    width: 100%;
-    border-radius: 10px;
-    outline: none;
+  background-color: #a8c0b4;
+  border: none;
+  height: 35px;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
 }
 
 .input2 textarea {
-    background-color: #a8c0b4;
-    border: none;
-    height: 90px;
-    width: 100%;
-    border-radius: 10px;
-    outline: none;
+  background-color: #a8c0b4;
+  border: none;
+  height: 90px;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
 }
 
 .input p,
 .input1 p,
 .input2 p {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 input:hover,
 textarea:hover {
-    background-color: #e2f8eb;
+  background-color: #e2f8eb;
 }
 
 button {
-    background-color: #0a142f;
-    color: white;
-    width: 55%;
-    height: 40px;
-    border-radius: 25px;
-    border: none;
-    align-self: flex-end;
+  background-color: #0a142f;
+  color: white;
+  width: 55%;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  align-self: flex-end;
 }
 
 @media (max-width: 1100px) {
-    .sparking h2 {
-        font-size: 55px;
-    }
+  .sparking h2 {
+    font-size: 55px;
+  }
 
-    .mid h2 {
-        font-size: 60px;
-    }
+  .mid h2 {
+    font-size: 60px;
+  }
 
-    .left-text h2 {
-        font-size: 55px;
-    }
+  .left-text h2 {
+    font-size: 55px;
+  }
 }
 
 @media (max-width: 900px) {
-    .starter h2 {
-        font-size: 55px;
-    }
+  .starter h2 {
+    font-size: 55px;
+  }
 
-    .card,
-    .card2,
-    .photo,
-    .idk {
-        width: 100%;
-        height: auto;
-        min-height: 500px;
-    }
+  .card,
+  .card2,
+  .photo,
+  .idk {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+  }
 
-    .sparking {
-        max-width: 100%;
-        min-height: 400px;
-    }
+  .sparking {
+    max-width: 100%;
+    min-height: 400px;
+  }
 
-    .sparking h2 {
-        font-size: 50px;
-    }
+  .sparking h2 {
+    font-size: 50px;
+  }
 
-    .mid h2 {
-        font-size: 50px;
-    }
+  .mid h2 {
+    font-size: 50px;
+  }
 
-    .forms {
-        flex-direction: column;
-    }
+  .forms {
+    flex-direction: column;
+  }
 
-    .left-text,
-    .forms1 {
-        width: 100%;
-    }
+  .left-text,
+  .forms1 {
+    width: 100%;
+  }
 
-    .left-text h2 {
-        font-size: 50px;
-    }
+  .left-text h2 {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 600px) {
-    .starter {
-        height: auto;
-        padding: 60px 20px;
-    }
+  .starter {
+    height: auto;
+    padding: 60px 20px;
+  }
 
-    .starter h2 {
-        font-size: 40px;
-    }
+  .starter h2 {
+    font-size: 40px;
+  }
 
-    .starter p {
-        font-size: 16px;
-    }
+  .starter p {
+    font-size: 16px;
+  }
 
-    .sparking {
-        padding: 20px;
-        min-height: 350px;
-    }
+  .sparking {
+    padding: 20px;
+    min-height: 350px;
+  }
 
-    .sparking h2 {
-        font-size: 38px;
-    }
+  .sparking h2 {
+    font-size: 38px;
+  }
 
-    .sparking p {
-        font-size: 16px;
-    }
+  .sparking p {
+    font-size: 16px;
+  }
 
-    .pic img {
-        height: 300px;
-    }
+  .pic img {
+    height: 300px;
+  }
 
-    .mid {
-        height: auto;
-        padding: 50px 20px;
-    }
+  .mid {
+    height: auto;
+    padding: 50px 20px;
+  }
 
-    .mid h2 {
-        font-size: 38px;
-    }
+  .mid h2 {
+    font-size: 38px;
+  }
 
-    .mid p {
-        font-size: 16px;
-    }
+  .mid p {
+    font-size: 16px;
+  }
 
-    .name {
-        flex-direction: column;
-    }
+  .name {
+    flex-direction: column;
+  }
 
-    .left-text h2 {
-        font-size: 40px;
-    }
+  .left-text h2 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 450px) {
-    .starter h2 {
-        font-size: 32px;
-    }
+  .starter h2 {
+    font-size: 32px;
+  }
 
-    .sparking h2 {
-        font-size: 30px;
-    }
+  .sparking h2 {
+    font-size: 30px;
+  }
 
-    .mid h2 {
-        font-size: 30px;
-    }
+  .mid h2 {
+    font-size: 30px;
+  }
 
-    .left-text h2 {
-        font-size: 32px;
-    }
+  .left-text h2 {
+    font-size: 32px;
+  }
 
-    .forms1 {
-        padding: 20px;
-    }
+  .forms1 {
+    padding: 20px;
+  }
 
-    button {
-        width: 100%;
-    }
+  button {
+    width: 100%;
+  }
 }
 
 @media (max-width: 345px) {
-    .starter h2 {
-        font-size: 26px;
-    }
+  .starter h2 {
+    font-size: 26px;
+  }
 
-    .sparking h2 {
-        font-size: 24px;
-    }
+  .sparking h2 {
+    font-size: 24px;
+  }
 
-    .mid h2 {
-        font-size: 26px;
-    }
+  .mid h2 {
+    font-size: 26px;
+  }
 
-    .left-text h2 {
-        font-size: 28px;
-    }
+  .left-text h2 {
+    font-size: 28px;
+  }
 }
-

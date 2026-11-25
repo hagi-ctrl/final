@@ -1,8 +1,3 @@
-
-
-
-
-
 .container {
   width: 100%;
   display: flex;
@@ -34,7 +29,6 @@
   justify-content: flex-start;
   gap: 10px;
   overflow: hidden;
-
 }
 
 .text h2 {
@@ -278,7 +272,3 @@
     font-size: 14px;
   }
 }
-
-
-
-
